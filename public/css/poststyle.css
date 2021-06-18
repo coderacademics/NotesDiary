@@ -1,0 +1,54 @@
+
+.navbar{
+    position: sticky;
+    top: 0;
+}
+.search{
+    position: absolute;
+    right: 0px;
+}
+.search::placeholder{
+    font-style: italic;
+}
+
+
+
+.content{
+    border: 2px solid skyblue;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-top: 1em;
+    padding: 1.5em;
+    /* border-shadow:1px 1px 1px 1px; */
+    box-shadow: 1px 1px 1px 1px;
+}
+
+
+.fa-keyboard:hover{
+  font-size: 2.5em;
+}
+
+
+
+.footer_elements{
+   
+   
+    display: flex;
+    
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    
+}
+.footer{
+    background-color: rgb(164, 231, 231);
+    width: 100%;
+    height: 55px;
+    position: absolute;
+    position: sticky;
+    bottom: 0px;
+}
+.Copyright{
+    display: block;
+    text-align: center;
+}
